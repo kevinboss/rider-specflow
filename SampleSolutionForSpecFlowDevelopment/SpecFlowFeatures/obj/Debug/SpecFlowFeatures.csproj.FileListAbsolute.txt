@@ -1,0 +1,8 @@
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\bin\Debug\SpecFlowFeatures.dll
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\bin\Debug\SpecFlowFeatures.pdb
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\bin\Debug\nunit.framework.dll
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\bin\Debug\nunit.framework.xml
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\obj\Debug\SpecFlowFeatures.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\obj\Debug\SpecFlowFeatures.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\obj\Debug\SpecFlowFeatures.dll
+C:\Users\kevin\Repos\rider-specflow\SampleSolutionForSpecFlowDevelopment\SpecFlowFeatures\obj\Debug\SpecFlowFeatures.pdb
