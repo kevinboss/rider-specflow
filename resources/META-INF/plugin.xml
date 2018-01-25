@@ -1,37 +1,30 @@
 <idea-plugin>
-    <id>com.your.company.unique.plugin.id</id>
-    <name>Plugin display name here</name>
-    <version>1.0</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <id>ch.hubobes.rider.specflow</id>
+  <name>Reverse package search</name>
+  <version>1.0.1</version>
+  <vendor email="kevin.boss@outlook.com">Kevin Boss</vendor>
 
-    <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+  <description><![CDATA[
     ]]></description>
 
-    <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-    </change-notes>
+  <change-notes><![CDATA[]]></change-notes>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="173.0"/>
+  <idea-version since-build="163.10479"/>
+  -->
+  <depends>com.intellij.modules.rider</depends>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
-    <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
-    -->
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
-    </extensions>
+  <actions>
+    <action id="Rider.Specflow.Generate" class="ch.hubobes.rider.specflow.ReversePackageSearchAction"
+            text="Generate *.feature.cs file..."
+            description="Generates the *.feature.cs File that belongs to the *.feature file.">
+      <add-to-group group-id="SolutionExplorerPopupMenu" />
+      <add-to-group group-id="ProjectViewPopupMenu" />
+      <keyboard-shortcut keymap="$default" first-keystroke="alt shift G"/>
+    </action>
+  </actions>
 
-    <actions>
-        <action id="Rider.Specflow.GenerateCode" class="hubobes.rider.specflow.Main"
-                text="Specflow Generate Code" description="Auto generate specflow file">
-            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="AssociateWithFileType"/>
-        </action>
-    </actions>
 </idea-plugin>
